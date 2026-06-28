@@ -1,59 +1,56 @@
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",Arial,sans-serif;
+  background:#F2F2F7;
+  color:#000;
+}
 
- <style>
-    body{
-      margin:0;
-      font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",Arial,sans-serif;
-      background:#F2F2F7;
-      color:#000;
-    }
+header{
+  padding:60px 25px 30px;
+}
 
-    header{
-      padding:60px 25px 30px;
-    }
+h1{
+  margin:0;
+  font-size:38px;
+  font-weight:700;
+}
 
-    h1{
-      margin:0;
-      font-size:38px;
-      font-weight:700;
-    }
+h2{
+  margin-top:6px;
+  color:#6e6e73;
+  font-weight:500;
+}
 
-    h2{
-      margin-top:6px;
-      color:#6e6e73;
-      font-weight:500;
-    }
+.cards{
+  padding:20px;
+  display:grid;
+  gap:18px;
+}
 
-    .cards{
-      padding:20px;
-      display:grid;
-      gap:18px;
-    }
+.card{
+  background:white;
+  border-radius:22px;
+  padding:22px;
+  box-shadow:0 5px 18px rgba(0,0,0,.08);
+}
 
-    .card{
-      background:white;
-      border-radius:22px;
-      padding:22px;
-      box-shadow:0 5px 18px rgba(0,0,0,.08);
-    }
+.emoji{
+  font-size:34px;
+}
 
-    .emoji{
-      font-size:34px;
-    }
+.title{
+  font-size:22px;
+  font-weight:600;
+  margin-top:10px;
+}
 
-    .title{
-      font-size:22px;
-      font-weight:600;
-      margin-top:10px;
-    }
+.subtitle{
+  color:#666;
+  margin-top:8px;
+}
 
-    .subtitle{
-      color:#666;
-      margin-top:8px;
-    }
-
-    footer{
-      text-align:center;
-      color:#888;
-      padding:40px;
-    }
-  </style>
+footer{
+  text-align:center;
+  color:#888;
+  padding:40px;
+}
