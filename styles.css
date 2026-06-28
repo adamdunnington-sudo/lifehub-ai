@@ -54,3 +54,37 @@ footer{
   color:#888;
   padding:40px;
 }
+.bottom-nav{
+position:fixed;
+bottom:0;
+left:0;
+right:0;
+
+background:rgba(255,255,255,.9);
+
+backdrop-filter:blur(20px);
+
+display:flex;
+
+justify-content:space-around;
+
+padding:12px 0;
+
+border-top:1px solid #ddd;
+}
+
+.nav-item{
+text-align:center;
+
+font-size:13px;
+
+color:#777;
+}
+
+.nav-item div:first-child{
+
+font-size:24px;
+
+margin-bottom:3px;
+
+}
