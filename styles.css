@@ -142,3 +142,23 @@ margin-bottom:3px;
 *{
     -webkit-tap-highlight-color:transparent;
 }
+/* ===========================
+   Card Components
+   =========================== */
+
+.card-icon{
+    font-size:32px;
+    margin-bottom:12px;
+}
+
+.card-title{
+    font-size:22px;
+    font-weight:700;
+    margin-bottom:8px;
+}
+
+.card-text{
+    font-size:16px;
+    color:var(--secondary);
+    line-height:1.5;
+}
