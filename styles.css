@@ -31,7 +31,21 @@ body{
 }
 
 header{
-  padding:60px 25px 30px;
+    padding:70px 24px 20px;
+}
+
+h1{
+    margin:0;
+    font-size:34px;
+    font-weight:700;
+    letter-spacing:-1px;
+}
+
+h2{
+    margin-top:8px;
+    font-size:17px;
+    font-weight:500;
+    color:var(--secondary);
 }
 
 h1{
@@ -45,25 +59,22 @@ h2{
   color:#6e6e73;
   font-weight:500;
 }
-
 .cards{
-  padding:20px;
-  display:grid;
-  gap:18px;
+    display:flex;
+    flex-direction:column;
+    gap:16px;
+    padding:20px;
+    padding-bottom:100px;
 }
 
 .card{
-  background:var(--card);
-  border-radius:var(--radius);
-  padding:22px;
+    background:var(--card);
+    border-radius:24px;
+    padding:22px;
 
-  box-shadow:var(--shadow);
+    box-shadow:var(--shadow);
 
-  transition:
-      transform .25s ease,
-      box-shadow .25s ease;
-
-  cursor:pointer;
+    transition:all .25s ease;
 }
 .card:hover{
     transform:translateY(-4px);
