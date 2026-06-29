@@ -1,3 +1,23 @@
+/* ===========================
+   LifeHub Design System
+   =========================== */
+
+:root{
+
+--background:#F2F2F7;
+--card:#FFFFFF;
+--text:#000000;
+--secondary:#6E6E73;
+
+--primary:#007AFF;
+
+--radius:22px;
+
+--shadow:0 5px 18px rgba(0,0,0,.08);
+
+--spacing:20px;
+
+}
 body{
   margin:0;
   font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",Arial,sans-serif;
