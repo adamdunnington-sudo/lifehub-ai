@@ -20,9 +20,14 @@
 }
 body{
   margin:0;
-  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",Arial,sans-serif;
-  background:#F2F2F7;
-  color:#000;
+  font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","SF Pro Text",Arial,sans-serif;
+  background:var(--background);
+  color:var(--text);
+
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+
+  transition:background .35s ease,color .35s ease;
 }
 
 header{
@@ -48,10 +53,25 @@ h2{
 }
 
 .card{
-  background:white;
-  border-radius:22px;
+  background:var(--card);
+  border-radius:var(--radius);
   padding:22px;
-  box-shadow:0 5px 18px rgba(0,0,0,.08);
+
+  box-shadow:var(--shadow);
+
+  transition:
+      transform .25s ease,
+      box-shadow .25s ease;
+
+  cursor:pointer;
+}
+.card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 30px rgba(0,0,0,.12);
+}
+
+.card:active{
+    transform:scale(.98);
 }
 
 .emoji{
@@ -107,4 +127,7 @@ font-size:24px;
 
 margin-bottom:3px;
 
+}
+*{
+    -webkit-tap-highlight-color:transparent;
 }
